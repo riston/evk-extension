@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Set Page Color Popup</title>
+    <link href="basscss.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="m2">
+      <header>
+        <h2 class="h3 blue">EVK Shareholders</h2>
+      </header>
+      <main>
+        <p class="blue">Extract the data from the <a href="http://statistics.e-register.ee/en/shareholders">EVK shareholders</a> table and download it as CSV file.</p>
+        <p class="blue">Make sure you select the share from list and enter the Captcha code before extracting data.</p>
+      </main>
+      <main class="panel">
+        <select class="select btn-outline blue share-list">
+          <option value="default">Default</option>
+        </select>
+        <button class="btn btn-outline blue" data-action="clear-all">Clear all</button>
+        <button class="btn btn-outline blue ml1" data-action="extract">Extract</button>
+        <button class="btn btn-outline blue ml1" data-action="download">Download</button>
+      </main>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
