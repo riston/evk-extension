@@ -13,7 +13,7 @@ the currently open webpage.
 
 ## Install
 
-Get it from Google Web store or use the source version by loading the extension from (chrome://extensions)[chrome://extensions/]
+Get it from Google Web store or use the source version by loading the extension from chrome://extensions.
 
 ## License
 
